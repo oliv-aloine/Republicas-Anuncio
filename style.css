@@ -9,86 +9,6 @@ img.logo {
     padding-top: 10px;
 }
 
-/* row comodidades */
-
-.comodidades {
-    padding: 10px;
-}
-
-.comodidades > span {
-    list-style-type: none;
-    display: inline-block;
-}
-
-/* row comodidades */
-
-/* row infos */
-
-#infos {
-    padding: 20px;
-}
-
-.second-content h2 {
-    padding: 10px;
-    color: #646464;
-    font-size: 35px;
-    text-align: end;
-}
-
-.second-content a {
-    background: #ededed;
-    text-decoration: none;
-    color: #000;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 80px;
-    transition: 1s;
-}
-
-.second-content {
-    width: 100%;
-    text-align: end;
-}
-
-/* row infos */
-
-/* row fotos */
-
-.images-pri img{
-    width: 650px;
-    height: 480px;
-    padding: 10px;
-}
-
-.images-sec img{
-    width: 300px;
-    height: 240px;
-    padding: 10px;
-}
-
-/* row fotos */
-
-/* row comments */
-
-.comments {
-    margin-top: 10px;
-}
-
-.single-comment img {
-    width: 50px;
-    height: 50px;
-    border-radius: 180px;
-}
-
-.single-comment {
-    margin-bottom: 5rem;
-    background: #dfdfdf;
-    padding: 10px;
-    width: 550px;
-}
-
-/* row comments */
-
 .menu_itens
 {
     margin-top: 20px;
@@ -97,6 +17,12 @@ img.logo {
 .menu_itens a
 {
     color: black;
+}
+
+.ab {
+    border-radius: 40px;
+    margin-left: 5px;
+    background-color: #e5e5e5;
 }
 
 #menuToggle{
@@ -113,7 +39,102 @@ img.logo {
     list-style-type: none;
     display: inline-block;
 }
+/* header */
 
+/* row fotos */
+.images-pri img{
+    width: 650px;
+    height: 480px;
+    padding: 10px;
+}
+
+.images-sec img{
+    width: 300px;
+    height: 240px;
+    padding: 10px;
+}
+/* row fotos */
+
+/* row infos */
+#infos {
+    padding: 20px 0px 15px;
+}
+
+.second-content h2 {
+    padding: 10px;
+    color: #646464;
+    font-size: 35px;
+}
+
+.second-content a {
+    background: #ededed;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 50px;
+    transition: 1s;
+    display: block;
+    text-align: center;
+}
+
+.second-content {
+    width: 100%;
+    text-align: end;
+}
+/* row infos */
+
+/* row comodidades */
+.comodidades {
+    padding: 10px 0px 10px;
+}
+
+.comodidades > span {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+/* row comodidades */
+
+/* row details */
+.comments {
+    margin-top: 10px;
+}
+
+.single-comment img {
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
+}
+
+.single-comment {
+    margin-bottom: 5rem;
+    background: #dfdfdf;
+    padding: 10px;
+    width: 100%;
+}
+
+.single-comment b{
+    padding: 10px;
+}
+
+.single-comment p{
+    padding: 5px;
+}
+
+.mapouter {
+    text-align: center;
+    height: 500px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 100%;
+}
+/* row details */
 
 .dropdown #dropdownMenuButton1 {
     color: #fff;
@@ -210,11 +231,67 @@ img.logo {
     .abrirmenu
     {
         margin-top: 10px;
+        text-align: right;
     }
+
+    /* row fotos */
+    .images-pri img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .images-sec img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+    /* row fotos */
+
+    /* row infos */
+    #infos {
+        padding: 20px 0px 15px;
+    }
+
+    .second-content h2 {
+        text-align: center;
+        padding: 10px;
+        color: #646464;
+        font-size: 35px;
+    }
+    /* row infos */
+
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 1030px){
     .dropdown #dropdownMenuButton1 {
         font-size: 14px;
     }
+
+    /* row fotos */
+    .images-pri img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .images-sec img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+    /* row fotos */
+
+    /* row infos */
+    #infos {
+        padding: 20px 0px 15px;
+    }
+
+    .second-content h2 {
+        text-align: center;
+        padding: 10px;
+        color: #646464;
+        font-size: 35px;
+    }
+    /* row infos */
 }
